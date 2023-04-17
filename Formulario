@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Noelia Acosta: Formulario</h1>
+    <form action="envio.php" method="post" target="_blank">
+        <label for="usuario">Usuario:</label>
+        <input type="text" id="usuario" zise="tamaño"
+        name="nombre" placeholder="Escribe aquí tu usuario" required>
+        <small>Campo Obligatorio</small>
+        <br>
+        <br>
+        <label for="usuario">Contraseña:</label>
+        <input type="password" id="password" zise="tamaño"
+        name="password" placeholder="Escribe aquí tu contraseña">
+        <br>
+        <br>
+        <input type="checkbox" name="condiciones" id="condiciones"> Esta de acuerdo con las condiciones del contrato?
+        <br>
+        <br>
+        <input type="checkbox" name="lenguaje" value="html"> HTML
+        <input type="checkbox" name="lenguaje" value="html"> CSS
+        <input type="checkbox" name="lenguaje" value="html"> JavaScript
+        <input type="checkbox" name="lenguaje" value="html"> Python
+        <br>
+        <br>
+        <input type="radio" name="lenguaje" value="html"> HTML
+        <input type="radio" name="lenguaje" value="html"> CSS
+        <input type="radio" name="lenguaje" value="html"> JavaScript
+        <input type="radio" name="lenguaje" value="html"> Python
+        <br>
+        <br>
+        <label for="programando">Años programando</label>
+        <input type="number" id="usuario" size="tamaño" name="nombre" placeholder="Años programando">
+        <br>
+        <br>
+        <label for="archivo">Sube tu currículum</label>
+        <input type="file" id="archivo" size="tamaño" name="archivo"
+        value="file">
+        <br>
+        <br>
+        <label for="opinion">Agrega tu opinión: </label>
+        <textarea type="file" id="opinion" size="tamaño" name="opinion"
+        placeholder="Escribe aquí..." rows="5" cols="50"></textarea>
+        <br>
+        <br>
+        <label for="Pais">Selecciona tu país de origen:</label>
+        <select name="pais" id="pais">
+            <optgroup label="America">
+                <option value="Argentina">Argentina</option>
+                <option value="Mexico">Mexico</option>
+            </optgroup>
+            <optgroup label="Europa">
+                <option value="francia">Francia</option>
+            <option value="Croacia">Croacia</option>
+            <option value="Marruecos" selected="selected">Marruecos</option>
+            </optgroup>
+            
+
+ 
+        </select>
+
+        <br>
+        <br>
+        <input type="submit" value="Envía tus datos">
+        <input type="reset" value="Resetea tus datos">
+
+        <br>
+        <br>
+        <input type="button" onclick="alert(Anotate a mi canal)" 
+        value="Saludo">
+
+        <br>
+        <br>
+        <label for="archivo">Fecha de Ingreso Laboral</label>
+        <input type="date" id="fecha" name="fecha" max="2023-04-13">
+
+        <br>
+        <br>
+        <label for="archivo">Fecha de Nacimmiento</label>
+        <input type="date" id="fecha" name="fecha" max="1994">
+
+
+    </form>
+    
+</body>
+</html>
